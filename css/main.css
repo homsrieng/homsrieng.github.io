@@ -594,8 +594,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	color: #cc005f;
-	border-bottom: 1px solid #FF0077;
+	color: rgb(36, 201, 173);;
+	border-bottom: 1px solid rgb(36, 201, 173);;
 }
 label, legend {
 	font-family: "poppins-bold", sans-serif;
@@ -736,8 +736,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #FF0077;
-	color: #FF0077;
+	border: 3px solid rgb(36, 201, 173);;
+	color: rgb(36, 201, 173);;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -772,7 +772,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .ss-error {
 	background-color: #ffd1d2;
-	color: #e65153;
+	color: rgb(36, 201, 173);;
 }
 .ss-success {
 	background-color: #c8e675;
@@ -925,7 +925,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #252525;
 }
 .stats-tabs li a:hover {
-	color: #FF0077;
+	color: rgb(36, 201, 173);;
 }
 .stats-tabs li a em {
 	display: block;
@@ -1138,7 +1138,7 @@ header .logo a {
 }
 .menu-toggle span {
 	display: block;
-	background-color: #FF0077;
+	background-color: rgb(36, 201, 173);;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -1196,7 +1196,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #ff0077;
+	background-color: rgb(36, 201, 173);;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1252,12 +1252,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #FF0077;
+	color: rgb(36, 201, 173);;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #FF0077;
+	color: rgb(36, 201, 173);;
 }
 
 /**
@@ -1416,7 +1416,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: rgb(36, 201, 173);;
 }
 
 /**
@@ -1454,6 +1454,9 @@ header .logo a {
 	.intro-social li {
 		margin: 0 10px;
 	}
+	footer .copyright span{
+		margin-top: 10px;
+	}
 }
 @media only screen and (max-width:600px) {
 	#intro {
@@ -1479,6 +1482,9 @@ header .logo a {
 	}
 	.intro-social {
 		font-size: 2.4rem;
+	}
+	footer .copyright span{
+		margin-top: 10px;
 	}
 }
 
