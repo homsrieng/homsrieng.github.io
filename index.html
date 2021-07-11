@@ -25,17 +25,20 @@
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/highcharts-more.js"></script>
    <!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="images/profile.png">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149116455-1"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-149116455-1');
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-149116455-1');
+
+		
 	</script>
 </head>
 
@@ -140,7 +143,12 @@
 
    		<div class="col-six tab-full">
    			<h3>Skills</h3>
-				<ul class="skill-bars">
+			   <!-- SPIDE CHART -->
+			    <figure class="highcharts-figure">
+					<div id="container"></div>
+					<p class="highcharts-description"></p>
+				</figure>
+				<!-- <ul class="skill-bars">
 					<li>
 						<div class="progress percent80"><span>80%</span></div>
 						<strong>HTML5</strong>
@@ -213,7 +221,7 @@
 						<div class="progress percent70"><span>70%</span></div>
 						<strong>JSP</strong>
 					</li>
-				</ul> <!-- /skill-bars -->		
+				</ul> /skill-bars		 -->
    		</div>
    	</div>
    </section> <!-- /process-->    
@@ -363,10 +371,10 @@
 							<a href="#modal-01" class="overlay">	                  	           
 								<div class="folio-item-table">
 									<div class="folio-item-cell">
-										<h3 class="folio-title">Beloved App</h3>	     					    
+											<h3 class="folio-title">Beloved App</h3>	     					    
 											<span class="folio-types">
-											Mobile Application
-										</span>
+												Mobile Development
+											</span>
 									</div>	                      	
 								</div>                    
 							</a>
@@ -380,7 +388,7 @@
 									<div class="folio-item-cell">
 										<h3 class="folio-title">AMI MALL App</h3>	     					    
 											<span class="folio-types">
-											Mobile Application
+											Mobile Development
 										</span>
 									</div>	                      	
 								</div>                    
@@ -395,8 +403,8 @@
 									<div class="folio-item-cell">
 										<h3 class="folio-title">PHSAR SAMNONG</h3>	     					    
 											<span class="folio-types">
-											Backend of Mobile App
-										</span>
+												Backend Development
+											</span>
 									</div>	                      	
 								</div>                    
 							</a>
@@ -408,10 +416,10 @@
 							<a href="#modal-04" class="overlay">	                  	           
 								<div class="folio-item-table">
 									<div class="folio-item-cell">
-										<h3 class="folio-title">Primex</h3>	     					    
+											<h3 class="folio-title">Primex</h3>	     					    
 											<span class="folio-types">
-											Backend of Mobile App
-										</span>
+												Backend Development
+											</span>
 									</div>	                      	
 								</div>                    
 							</a>
@@ -456,7 +464,7 @@
 						<div class="description-box">
 							<h4>Beloved App</h4>		      
 							<p>BeLoves is a total matching support service that create new way of encounter in Cambodia. We make use of our strength as a leading digital marketing company to support matching in Cambodia in both Digital and Real world.</p>
-							<div class="categories">Android Development</div>			               
+							<div class="categories">Mobile Development</div>			               
 						</div>
 						<div class="link-box">
 							<a href="https://play.google.com/store/apps/details?id=com.planbcambodia.beloveproject" target="_blank">Details</a>
@@ -470,7 +478,7 @@
 						<div class="description-box">
 							<h4>AMI MALL App</h4>		      
 							<p>AEON MALL is a specialist shopping mall application. Our philosophy of putting customers first has guided our ongoing efforts to create malls that enhance the quality of life.</p>
-							<div class="categories">Android Development</div>			               
+							<div class="categories">Mobile Development</div>			               
 						</div>
 						<div class="link-box">
 							<a href="https://play.google.com/store/apps/details?id=com.indonesia.aeon" target="_blank">Details</a>
