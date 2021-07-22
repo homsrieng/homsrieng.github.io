@@ -330,7 +330,9 @@ Highcharts.chart('container', {
 			'Firebase',
 			'Onesignal',
 			'ASP.NET',
-			'JSP'
+			'JSP',
+			'AWS S3',
+			'AWS RDS',
 		],
         tickmarkPlacement: 'on',
         lineWidth: 0
@@ -372,8 +374,10 @@ Highcharts.chart('container', {
 			75,//SQL Server
 			70,//Firebase
 			70,//Onesignal
-			50,//ASP.Net,
+			50,//ASP.Net
 			60,//JSP
+			70,//ASW S3
+			70,//ASW RDS
 		],
         pointPlacement: 'on'
     }],
